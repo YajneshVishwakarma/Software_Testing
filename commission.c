@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 int main()
 {
     int locks, stocks, barrels, t_sales, flag = 0;
     float commission;
-    clrscr();
     printf("Enter the total number of locks");
     scanf("%d",&locks);
 
@@ -57,5 +57,5 @@ else
     printf("The total sales is %d \n The commission is %f",t_sales, commission);
     getch();
     
-return;
+return 1;
 }
